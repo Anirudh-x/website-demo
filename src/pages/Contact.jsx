@@ -3,12 +3,12 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="h-[100vh] bg-gray-100 flex items-center justify-between px-20 mt-[3rem]">
-      <div className="flex flex-col gap-10 w-[40%]">
+    <div className="h-[100vh] w-full bg-gray-100 flex items-center justify-between px-20 mt-[3rem]">
+      <div className="hidden md:flex flex-col gap-10 w-[40%]">
         <h1 className="text-7xl font-bold text-gray-800">Get in Touch</h1>
         <p>We’re here to turn your ideas into reality. Whether you’re looking for a stunning website, a standout logo, or engaging video content, our team of creative experts is ready to help. Have a question or need more information about our services? Let’s connect!</p>
       </div>
-      <div className="bg-white p-8 flex flex-col gap-5 rounded-lg shadow-lg w-[45%] max-w-2xl mt-[2rem]">
+      <div className="bg-white p-8 flex flex-col gap-5 rounded-lg shadow-lg w-full md:w-[45%] max-w-2xl mt-[2rem]">
         <h2 className="text-2xl font-bold text-black">Here’s how you can reach us:</h2>
         <form className="space-y-3">
           <div className="flex flex-col">
